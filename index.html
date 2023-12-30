@@ -1,0 +1,59 @@
+<head>
+    <title>
+        Face recognition web app
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+        <h1>
+            Face Recognition Web App
+        </h1>
+        <h3>
+            Model is trained to identify the following objects:
+        </h3>
+        <h2 class="family_name">
+            Father
+        </h2 class="family_name">
+        <br>
+        <h2 class="family_name">
+            Mother
+        </h2>
+        <br>
+        <h2 class="family_name">
+            Brother
+        </h2>
+        <br>
+        <h2 class="family_name">
+            Me
+        </h2>
+        <br>
+        <h3>
+            Webcam view
+        </h1>
+        <div id="camera">
+
+        </div>
+        <br>
+        <hr>
+        <br>
+        <button onclick="capture_img()">
+            Capture image
+        </button>
+        <button onclick="identify_img()">
+            Identify image
+        </button>
+        <span>
+        <h2>
+            Family member:
+        </h2>
+        </span>
+        <span>
+        <h2>
+        Accuracy:
+        </h2>
+        </span>
+
+    </center>
+    <script src="main.js"></script>
+</body>
